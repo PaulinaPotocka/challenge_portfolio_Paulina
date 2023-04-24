@@ -4,6 +4,7 @@ Wyzwania i zadania realizowane podczas trwania projektu DARE IT Zostań Testerem
 Task 1 
 
 Subtask 1
+
 9 punktów
 
 Subtask 3
