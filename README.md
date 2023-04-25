@@ -18,11 +18,11 @@ Zgodnie z krótkim, lakonicznym opisem na stronie głównej jest to panel do zar
 </details>
 
 <details>
-<summary> Kliknij aby zobaczyć odpowiedź na pytanie: <b>Jakie są funkcje przeglądania w aplikacji? Do czego służy. Czy jesteś intuicyjne, czy możesz coś zmienić_a?</b></summary>
-W aplikacji aplikacja istnieje podgląd zestawienia graczy oraz dodawanie informacji o innych.e
-Funkcjonalność dodawania znajduje się w nieadekwatnym miejscu w sekcji linków pomocniczych. Gdyby nie inny kolor czcionki Dodaj inny nie przykuwałby na uwagi. Jako użytkownik szukałabym go w zupełnie innym miejscu w aplikacji. Funkcjonalność nie jest do końca rozumna. Po wejściu w zakładkę Dodaj inny, jest wiele pól z których korzystam z problemem. Niejasny opis niektórych skutków, że nie wiem co należy zrobić np. pole podpisane jako łączy nas piłka czy 90 minut. Dodaj język są dodatkowe dodane Dodaj język (też nie wiadomo o co chodzi z tym polem) czy Dodaj link z youtube. Uważam, że należy być jasnym i niewskazanym widnieć jako uzupełnienie tylko prostego pola.t
-Funkcjonalność podglądu zestawienia graczy przedstawiona jest w formie tabeli. Ze względu na to, że zestawienie jest bardzo mało czytelne.a
-Z opisu aplikacji produktu, że korzystanie z niego ma dostęp do produktu. Funkcjonalność jest tak ukryta w aplikacji, że aby uzyskać dostęp do ostatniego zaaktualizowanego raportu w sekcji Aktywność. Potem potem przenieś się do zakładki z raportami.przenieśils
+<summary> Kliknij aby zobaczyć odpowiedź na pytanie: <b>Jakie funkcjonalności znajdują się w aplikacji? Do czego służą. Czy są intuicyjne, czy może byś coś zmienił_a?</b></summary>
+W aplikacji istnieją funkcjonalności podglądu zestawienia graczy, dodawania informacji o innych graczach oraz tworzenia raportów.
+Funkcjonalność dodawania gracza znajduje się w nieadekwatnym miejscu w sekcji linków pomocniczych. Gdyby nie inny kolor czcionki przycisku Dodaj gracza nie przykuwałby on uwagi. Jako użytkownik szukałabym go w zupełnie innym miejscu w aplikacji. Funkcjonalność nie jest do końca intuicyjna. Po wejściu w zakładkę dodawania gracza, jest wiele pól z których wepełnieniem mam wątpliwości. Niejasny opis niektórych pól powoduje, że nie jestem pewna co należy zrobić np. pole podpisane jako łączy nas piłka czy 90 minut. W zakładce istnieją także wyeksponowane przyciski dodawania języka i linka z youtube. Uważam, że powinny być stworzone w taki sam sposób jak pozostałe pola. W formie przycisku powinien pozostać jedynie Submit i Clear.
+Funkcjonalność podglądu zestawienia graczy przedstawiona jest w formie tabeli. Ze względu na to, że zestawienie zawiera pola, w których dopuszczalne jest wprowadzenie niepoprawnych danych powoduje, że jest ono bardzo mało czytelne. Dla przykładu w miejscu imienia można wprowadzić cyfry czy znaki specjalne.
+Z opisu aplikacji wynika iż uzytkownik ma możliwość generowania raportów. Funkcjonalność ta jest tak ukryta w aplikacji, że aby uzyskać do niej dostęp należy kliknąć w ostatni zaaktualizowany raport w sekcji Aktywność. Sekcja z raportami stworzona jest w chaotyczny sposób co bardzo utrudnia korzystanie z niej.
 </details>
 
 •	Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie?
