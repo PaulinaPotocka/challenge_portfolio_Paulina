@@ -16,6 +16,7 @@ Cześć jestem Paulina i bardzo chcę zostać Testerką Manualną. Dołączyłam
 <summary> Kliknij aby zobaczyć odpowiedź na pytanie: <b>Na czym polega ta aplikacja? Do czego służy?</b></summary>
 Zgodnie z krótkim, lakonicznym opisem na stronie głównej jest to panel do zarządzania graczami, meczami i tworzeniem raportów. Moim zdaniem trudno jest się zorientować jaki był głowny cel stworzenia tej aplikacji.
 </details>
+
 <details>
 <summary> Kliknij aby zobaczyć odpowiedź na pytanie: <b>Jakie są funkcje przeglądania w aplikacji? Do czego służy. Czy jesteś intuicyjne, czy możesz coś zmienić_a?</b></summary>
 W aplikacji aplikacja istnieje podgląd zestawienia graczy oraz dodawanie informacji o innych.e
@@ -23,6 +24,7 @@ Funkcjonalność dodawania znajduje się w nieadekwatnym miejscu w sekcji linkó
 Funkcjonalność podglądu zestawienia graczy przedstawiona jest w formie tabeli. Ze względu na to, że zestawienie jest bardzo mało czytelne.a
 Z opisu aplikacji produktu, że korzystanie z niego ma dostęp do produktu. Funkcjonalność jest tak ukryta w aplikacji, że aby uzyskać dostęp do ostatniego zaaktualizowanego raportu w sekcji Aktywność. Potem potem przenieś się do zakładki z raportami.przenieśils
 </details>
+
 •	Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie?
 Interfejs aplikacji jest niedopracowany, niestety nie podoba mi się. Widoczny jest brak konsekwencji w stworzeniu aplikacji. Już na stronie głównej widać wiele błędów interpunkcyjnych. Elementy graficzne nie są jednolite, ich wielkość się różni. Pasek nawigacji wydaje się być niekompletny a rozmieszczenie elementów na stronie nie do końca poprawny. 
 •	Czy aplikacja jest intuicyjna? (Intuicyjna, czyli np. nie masz problemu ze zrozumieniem, co należy kliknąć, żeby wejść do formularza dodawania nowego zawodnika piłki nożnej do systemu).
