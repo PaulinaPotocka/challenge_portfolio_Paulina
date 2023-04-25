@@ -11,7 +11,7 @@ Wyzwania i zadania realizowane podczas trwania projektu DARE IT Zostań Testerem
 
 Cześć jestem Paulina i bardzo chcę zostać Testerką Manualną. Dołączyłam do wyzwania DARE IT aby zdobyć nowe umiejętności w obszarze testowania, czerpać wiedzę od doświadczonych mentorów oraz wymieniać cenne uwagi z innymi uczestnikami projektu. Ponadto chciałabym skoncentować się na testowaniu w praktyce i stworzeniu interesującego portfolio. Wiem, że najbliższe tygodnie będą dla mnie intensywnym i ciekawym doświadczeniem.
 
-### Podzadanie 4
+### Subtask 4
 <details>
 <summary> Kliknij aby zobaczyć odpowiedź na pytanie: <b>Na czym polega ta aplikacja? Do czego służy?</b></summary>
 Zgodnie z krótkim, lakonicznym opisem na stronie głównej jest to panel do zarządzania graczami, meczami i tworzeniem raportów. Moim zdaniem trudno jest się zorientować jaki był głowny cel stworzenia tej aplikacji.
@@ -37,7 +37,9 @@ Dla mnie niestety aplikacja jest bardzo nie intuicyjna. Myśl rozwinęłam przy 
 
 <details>
 <summary> Kliknij aby zobaczyć odpowiedź na pytanie: <b>Czy zauważasz jakieś błędy? Albo coś wydaje Ci się błędem?</b></summary>
-- Na stronie głównej błąd interpunkcyjny w nazwie Aktywność(Aktywnosć)
+- Na stronie głównej błąd interpunkcyjny w nazwie Aktywność(Aktywnosć) oraz Gracze(Graczy)
 - Przycisk Contact nie przenosi do formularza kontaktu
-- W zestawieniu Gracze, pola pozwalają na wpisanie niepoprawnych wartości (np. Imię i nazwisko- znaki specjalne; Wiek- wartość 0)
+- W zakładce Dodaj Gracza, pola pozwalają na wpisanie niepoprawnych wartości (np. Imię i nazwisko- znaki specjalne; Wiek- wartość 0); Istnieją przyciski Język i YOUTUBE, które powinny być stworzone w formie zwykłego pola; przycisk zatwierdzania mógłby być zaznaczony kolorem zielonym- uzytkownik jest do tego przyzwyczajony; pole wiek dopuszcza wpisanie daty urodzenia z przyszłości
+- W zestawieniu graczy istnieje możliwość edycji co pozwala każdej osobie na dokonywanie modyfikacji czy usunięcia rekordu; pobranie zestawienie nie otwiera się poprawnie; przycisk kolumn nie zawiera opcji odznaczenia lub zaznaczenia wszystkich naraz; funkcja filtrowania wyników nie działa poprawnie
+- zakładka mecze zawiera pola, które pozwalają na wpisanie niepoprawnych wartości
 </details>
