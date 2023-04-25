@@ -25,8 +25,10 @@ Funkcjonalność podglądu zestawienia graczy przedstawiona jest w formie tabeli
 Z opisu aplikacji wynika iż uzytkownik ma możliwość generowania raportów. Funkcjonalność ta jest tak ukryta w aplikacji, że aby uzyskać do niej dostęp należy kliknąć w ostatni zaaktualizowany raport w sekcji Aktywność. Sekcja z raportami stworzona jest w chaotyczny sposób co bardzo utrudnia korzystanie z niej.
 </details>
 
-•	Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie?
-Interfejs aplikacji jest niedopracowany, niestety nie podoba mi się. Widoczny jest brak konsekwencji w stworzeniu aplikacji. Już na stronie głównej widać wiele błędów interpunkcyjnych. Elementy graficzne nie są jednolite, ich wielkość się różni. Pasek nawigacji wydaje się być niekompletny a rozmieszczenie elementów na stronie nie do końca poprawny. 
+<details>
+<summary> Kliknij aby zobaczyć odpowiedź na pytanie: <b>Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie?</b></summary>
+Interfejs aplikacji jest niedopracowany, niestety nie podoba mi się. Widoczny jest brak konsekwencji w stworzeniu aplikacji. Już na stronie głównej widać wiele błędów interpunkcyjnych. Elementy graficzne nie są jednolite, ich wielkość się różni. Pasek nawigacji wydaje się być niekompletny a rozmieszczenie elementów na stronie nie do końca poprawny.
+</details>
 •	Czy aplikacja jest intuicyjna? (Intuicyjna, czyli np. nie masz problemu ze zrozumieniem, co należy kliknąć, żeby wejść do formularza dodawania nowego zawodnika piłki nożnej do systemu).
 Dla mnie niestety aplikacja jest bardzo nie intuicyjna. Myśl rozwinęłam przy okazji opisu funkcjonalności aplikacji powyżej. 
 •	Czy zauważasz jakieś błędy? Albo coś wydaje Ci się błędem? Zapisz swoje przemyślenia w pliku. Tutaj masz na to miejsce, czas i przestrzeń!
