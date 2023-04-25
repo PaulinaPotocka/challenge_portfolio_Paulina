@@ -13,9 +13,10 @@ Cześć jestem Paulina i bardzo chcę zostać Testerką Manualną. Dołączyłam
 
 ### Podzadanie 4
 <details>
+<summary> Kliknij aby zobaczyć odpowiedź na pytanie: <b>Na czym polega ta aplikacja? Do czego służy?</b></summary>
 •	Na czym polega ta aplikacja? Do czego służy?
 Zgodnie z krótkim, lakonicznym opisem na stronie głównej jest to panel do zarządzania graczami, meczami i tworzeniem produktu. Moim zdaniem trudno jest się przekonać do czego służy aplikacja jedn
-</szczegóły>
+</details>
 •	Jakie są funkcje przeglądania w aplikacji? Do czego służy. Czy jesteś intuicyjne, czy możesz coś zmienić_a? (Nie zabijaj się krytykować!)
 W aplikacji aplikacja istnieje podgląd zestawienia graczy oraz dodawanie informacji o innych.e
 Funkcjonalność dodawania znajduje się w nieadekwatnym miejscu w sekcji linków pomocniczych. Gdyby nie inny kolor czcionki Dodaj inny nie przykuwałby na uwagi. Jako użytkownik szukałabym go w zupełnie innym miejscu w aplikacji. Funkcjonalność nie jest do końca rozumna. Po wejściu w zakładkę Dodaj inny, jest wiele pól z których korzystam z problemem. Niejasny opis niektórych skutków, że nie wiem co należy zrobić np. pole podpisane jako łączy nas piłka czy 90 minut. Dodaj język są dodatkowe dodane Dodaj język (też nie wiadomo o co chodzi z tym polem) czy Dodaj link z youtube. Uważam, że należy być jasnym i niewskazanym widnieć jako uzupełnienie tylko prostego pola.t
