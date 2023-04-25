@@ -1,10 +1,10 @@
-## challenge_portfolio_Paulina
+# challenge_portfolio_Paulina
 Wyzwania i zadania realizowane podczas trwania projektu DARE IT Zostań Testerem Manualnym
 
 ## Task 1 
 
-## Subtask 1
-* 9 punktów
+* [Subtask 1])(#Subtask-1)
+9 punktów
 
 ## Subtask 3
 
