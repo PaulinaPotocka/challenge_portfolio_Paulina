@@ -27,11 +27,17 @@ Z opisu aplikacji wynika iż uzytkownik ma możliwość generowania raportów. F
 
 <details>
 <summary> Kliknij aby zobaczyć odpowiedź na pytanie: <b>Oceń interfejs aplikacji (wygląd) – czy Ci się podoba, czy nie?</b></summary>
-Interfejs aplikacji jest niedopracowany, niestety nie podoba mi się. Widoczny jest brak konsekwencji w stworzeniu aplikacji. Już na stronie głównej widać wiele błędów interpunkcyjnych. Elementy graficzne nie są jednolite, ich wielkość się różni. Pasek nawigacji wydaje się być niekompletny a rozmieszczenie elementów na stronie nie do końca poprawny.
+Interfejs aplikacji jest niedopracowany, niestety nie podoba mi się. Widoczny jest brak konsekwencji w stworzeniu aplikacji. Już na stronie głównej widać wiele błędów interpunkcyjnych. Elementy graficzne nie są jednolite, ich wielkość się różni. Pasek nawigacji wydaje się być niekompletny a rozmieszczenie elementów na stronie nie do końca poprawne.
 </details>
-•	Czy aplikacja jest intuicyjna? (Intuicyjna, czyli np. nie masz problemu ze zrozumieniem, co należy kliknąć, żeby wejść do formularza dodawania nowego zawodnika piłki nożnej do systemu).
-Dla mnie niestety aplikacja jest bardzo nie intuicyjna. Myśl rozwinęłam przy okazji opisu funkcjonalności aplikacji powyżej. 
-•	Czy zauważasz jakieś błędy? Albo coś wydaje Ci się błędem? Zapisz swoje przemyślenia w pliku. Tutaj masz na to miejsce, czas i przestrzeń!
+
+<details>
+<summary> Kliknij aby zobaczyć odpowiedź na pytanie: <b>Czy aplikacja jest intuicyjna?</b></summary>
+Dla mnie niestety aplikacja jest bardzo nie intuicyjna. Myśl rozwinęłam przy okazji opisu funkcjonalności aplikacji powyżej.
+</details>
+
+<details>
+<summary> Kliknij aby zobaczyć odpowiedź na pytanie: <b>Czy zauważasz jakieś błędy? Albo coś wydaje Ci się błędem?</b></summary>
 - Na stronie głównej błąd interpunkcyjny w nazwie Aktywność(Aktywnosć)
 - Przycisk Contact nie przenosi do formularza kontaktu
 - W zestawieniu Gracze, pola pozwalają na wpisanie niepoprawnych wartości (np. Imię i nazwisko- znaki specjalne; Wiek- wartość 0)
+</details>
