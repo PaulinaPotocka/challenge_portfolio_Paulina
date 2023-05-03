@@ -1,6 +1,10 @@
 # challenge_portfolio_Paulina
 Wyzwania i zadania realizowane podczas trwania projektu DARE IT Zostań Testerem Manualnym
 
+## Zadania
+
+https://drive.google.com/drive/folders/1QuWfLI9bhSEZSobK0ymTG0MKnOLJn8gI?usp=share_link
+
 ## Task 1 
 
 ### Subtask 1
