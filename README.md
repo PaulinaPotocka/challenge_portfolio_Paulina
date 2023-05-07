@@ -61,3 +61,5 @@ Po co nam <b> Przypadki testowe </b> :
 * aby zadbać o jakość produktów cyfrowych
 * aby potwierdzić, że stworzone oprogramowanie jest zgodne z normami prawnymi i specyfikacją
 * aby zaplanować i uporządkować pracę 
+
+<img ![testcase](https://user-images.githubusercontent.com/108432905/236704898-4207f111-00ad-4583-b333-62695117e87c.png)></img>
