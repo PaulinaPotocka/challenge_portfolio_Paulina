@@ -54,4 +54,10 @@ Według ISTQB <b> Przypadki testowe </b> to:
 
 ```zbiór danych wejściowych, wstępnych warunków wykonania, oczekiwanych rezultatów i końcowych warunków wykonania opracowany w określonym celu lub dla warunku testowego, jak wykonanie pewnej ścieżki programu lub zweryfikowanie zgodności z konkretnym wymaganiem```
 
-Po co nam <b> Przypadki testowe </b>
+Po co nam <b> Przypadki testowe </b> :
+
+* aby sprawdzić czy funkcje programu działają właściwie
+* aby sprawdzić czy oprogramowanie spełnia wymagania postawione przez klienta
+* aby zadbać o jakość produktów cyfrowych
+* aby potwierdzić, że stworzone oprogramowanie jest zgodne z normami prawnymi i specyfikacją
+* aby zaplanować i uporządkować pracę 
