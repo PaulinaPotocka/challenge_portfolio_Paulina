@@ -51,5 +51,7 @@ Dla mnie niestety aplikacja jest bardzo nie intuicyjna. Myśl rozwinęłam przy 
 ## Task 2
 
 Według ISTQB <b> Przypadki testowe </b> to:
+
 ```zbiór danych wejściowych, wstępnych warunków wykonania, oczekiwanych rezultatów i końcowych warunków wykonania opracowany w określonym celu lub dla warunku testowego, jak wykonanie pewnej ścieżki programu lub zweryfikowanie zgodności z konkretnym wymaganiem```
+
 Po co nam <b> Przypadki testowe </b>
