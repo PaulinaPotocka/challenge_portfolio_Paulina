@@ -47,3 +47,7 @@ Dla mnie niestety aplikacja jest bardzo nie intuicyjna. Myśl rozwinęłam przy 
 - W zestawieniu graczy istnieje możliwość edycji co pozwala każdej osobie na dokonywanie modyfikacji czy usunięcia rekordu; pobranie zestawienie nie otwiera się poprawnie; przycisk kolumn nie zawiera opcji odznaczenia lub zaznaczenia wszystkich naraz; funkcja filtrowania wyników nie działa poprawnie
 - zakładka mecze zawiera pola, które pozwalają na wpisanie niepoprawnych wartości
 </details>
+
+## Task 2
+
+Po co nam <b> Przypadki testowe </b>
