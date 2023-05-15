@@ -64,12 +64,14 @@ Po co nam <b> Przypadki testowe </b> :
 
 <img src="https://user-images.githubusercontent.com/108432905/236704898-4207f111-00ad-4583-b333-62695117e87c.png" width="50%" height="50%"></img>
 
-## Task 2
+## Task 3
 
 ### Subtask 1
 <b>Zgłoszenie błędów</b>
+
 https://drive.google.com/drive/folders/1oPuK8m1aX2cfptTo_yw_wdlUMMWInokR?usp=share_link
 
 ### Subtask 2
 <b>Raport z testów</b>
+
 https://drive.google.com/drive/folders/1YXir6WXpxDRtg7EZXT5eTXzh7VVObcP_?usp=share_link
