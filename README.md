@@ -75,3 +75,13 @@ https://drive.google.com/drive/folders/1oPuK8m1aX2cfptTo_yw_wdlUMMWInokR?usp=sha
 <b>Raport z testów</b>
 
 https://drive.google.com/drive/folders/1YXir6WXpxDRtg7EZXT5eTXzh7VVObcP_?usp=share_link
+
+## Task 4
+
+### Subtask 2
+<b>Testowanie aplikacji mobilnej OLX - Zgłoszenie błędów</b>
+
+https://docs.google.com/spreadsheets/d/1tnRO8ep3pLdVZdvr2yUG0VWClOj3AaNg/edit?usp=share_link&ouid=106787840718659906081&rtpof=true&sd=true
+
+### Subtask 3
+
