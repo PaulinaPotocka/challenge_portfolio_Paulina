@@ -85,3 +85,22 @@ https://docs.google.com/spreadsheets/d/1tnRO8ep3pLdVZdvr2yUG0VWClOj3AaNg/edit?us
 
 ### Subtask 3
 
+* Do czego służy ta aplikacja? Jaki jest cel tej aplikacji?
+
+Aplikacja OLX służy do dodawania i odnajdywania interesujących użytkownika ogłoszeń. Aplikacja pozwala na zakup i sprzedaż przedmiotów i usług z różnorodnych kategorii. OLX pozwala również na poszukiwania zatrudnienia. Myślę, że jest także szczególnie atrakcyjna dla osób kupujących lub sprzedających lokalnie. 
+
+* Kto ma być użytkownikiem końcowym aplikacji?
+
+Użytkownik końcowy to wszystkie osoby zainteresowane sprzedażą lub zakupem przedmiotów i usług w tym osoby poszukujące i oferujące zatrudnienie. 
+
+* Czy według Ciebie aplikacja jest user friendly?
+
+Moim zdaniem aplikacja jest przyjazna dla użytkownika z kilku względów. Przede wszystkim jest przejrzysta wizualnie. Nie jest przeładowana treścią. Nawigacja i przyciski umieszczone są w odpowiednim miejscu. Łatwo znaleźć główne zakładki. Aplikacja jest intuicyjna. Wiem gdzie szukać tego czego potrzebuje. 
+
+* Jak byś usprawnił aplikację? Co byś w niej poprawił. Czy masz jakiś pomysł na dodatkową funkcjonalność? 
+
+Kilka razy podczas używania aplikacji zauważyłam, że podstrony wczytują się z opóźnieniem. Podczas przeszukiwania kategorii nie działały wybrane przyciski. Podobne opóźnienia miały miejse podczas przeglądania zakładki z wiadomościami.
+
+* Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej?
+
+Podczas testowania aplikacji natywnej zwracam uwagę na inne aspekty takie jak dostosowywanie wyświetlanej treści do ekranu telefonu czy tabletu oraz wygodnym dla użytkownika rozmieszczeniu przycisków czy zakładek. Koncentruję sie na tym czy aplikacja jest niezawodna, czy radzi sobie z przeciążeniem, intensywnym klikaniem czy trybem ofline. 
