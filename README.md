@@ -101,6 +101,8 @@ Moim zdaniem aplikacja jest przyjazna dla użytkownika z kilku względów. Przed
 
 Kilka razy podczas używania aplikacji zauważyłam, że podstrony wczytują się z opóźnieniem. Podczas przeszukiwania kategorii nie działały wybrane przyciski. Podobne opóźnienia miały miejse podczas przeglądania zakładki z wiadomościami.
 
+https://drive.google.com/file/d/1_FWxLJSv_wBDYBxtZwjtF_Y4LqR930iH/view?usp=share_link
+
 * Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej?
 
 Podczas testowania aplikacji natywnej zwracam uwagę na inne aspekty takie jak dostosowywanie wyświetlanej treści do ekranu telefonu czy tabletu oraz wygodnym dla użytkownika rozmieszczeniu przycisków czy zakładek. Koncentruję sie na tym czy aplikacja jest niezawodna, czy radzi sobie z przeciążeniem, intensywnym klikaniem czy trybem ofline. 
