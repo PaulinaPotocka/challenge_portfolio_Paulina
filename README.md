@@ -182,8 +182,14 @@ Podczas testowania aplikacji natywnej zwracam uwagę na inne aspekty takie jak d
 12. Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma maila. W celu napisania mu wiadomości o pomyłce fantastycznej szefowej.
 
 
-```SELECT customers.name, customers.email, sale.movie_id FROM `customers` LEFT JOIN sale ON customers.customer_id = sale.customer_id WHERE movie_id = 4 
+    ```SELECT customers.name, customers.email, sale.movie_id FROM `customers` LEFT JOIN sale ON customers.customer_id = sale.customer_id WHERE movie_id = 4 
 ORDER BY sale.sale_date DESC```
 
-<img src="https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/ed51b0b6-9c59-411a-b1fe-1112f1cc82d6" width="50%" height="50%"></img>
+   <img src="https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/ed51b0b6-9c59-411a-b1fe-1112f1cc82d6" width="50%" height="50%"></img>
+   
+13. Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com
+
+``` UPDATE customers SET email = "pati@mail.com" WHERE name ="Patrycja" and surname = "Komor"; albo (WHERE customer_id = 4)
+    SELECT * FROM `customers ```
+
 
