@@ -199,37 +199,50 @@ ORDER BY sale.sale_date DESC```
 
 <img src="https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/d5c91865-7c48-424b-9e13-288806be6711" width="50%" height="50%"></img>
 
+
 15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag
 
 
 
-```ALTER TABLE customersADD pseudonym varchar(3)UPDATE customers SET pseudonym = CONCAT(LEFT(name, 2), RIGHT(surname,1)); SELECT * FROM customers;```
+  ```ALTER TABLE customersADD pseudonym varchar(3)UPDATE customers SET pseudonym = CONCAT(LEFT(name, 2), RIGHT(surname,1)); SELECT * FROM customers;```
 
-<img src="https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/510e16f8-23c0-459b-9612-aa9703e7415d" width="50%" height="50%"></img>
+  <img src="https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/510e16f8-23c0-459b-9612-aa9703e7415d" width="50%" height="50%"></img>
+
 
 16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.
 
-```SELECT DISTINCT title FROM movies INNER JOIN sale ON movies.movie_id = sale.movie_id```
 
-<img src="https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/8b916270-bd19-4746-9b91-d1549803d181" width="50%" height="50%"></img>
+
+    ```SELECT DISTINCT title FROM movies INNER JOIN sale ON movies.movie_id = sale.movie_id``
+
+    <img src="https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/8b916270-bd19-4746-9b91-d1549803d181" width="50%" height="50%"></img>
+
 
 17. Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynik uporządkuj alfabetycznie. (Wykorzystaj do tego funkcji UNION)
 
 
-```SELECT name FROM customers UNION SELECT name FROM actors ORDER BY name;```
+    ```SELECT name FROM customers UNION SELECT name FROM actors ORDER BY name;```
+    
 
-<img src="https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/f5fbae83-3544-4ee5-a5b0-0c86e80e6807" width="50%" height="50%"></img>
+    <img src="https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/f5fbae83-3544-4ee5-a5b0-0c86e80e6807" width="50%" height="50%"></img>
+
 
 18. Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $ (Pamiętaj, że dolar to domyślna jednostka- nie używaj jej nigdzie)
 
-```SELECT * FROM movies; UPDATE movies SET price = price + 2.5 WHERE year_of_production > 2000; SELECT * FROM movies```
 
-<img src="https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/1694c6d1-41db-4aa2-8700-24305a4b7fb2" width="50%" height="50%"></img>
+
+    ```SELECT * FROM movies; UPDATE movies SET price = price + 2.5 WHERE year_of_production > 2000; SELECT * FROM movies```
+
+
+    <img src="https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/1694c6d1-41db-4aa2-8700-24305a4b7fb2" width="50%" height="50%"></img>
 
 19. Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał
 
 20. A gdzie nasza HONIA!? Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa
 
-```INSERT INTO customers (customer_id, name, surname, email, pseudonym) VALUES ("7", "Honia", "Stuczka-Kucharska", "honia@mail.com", "Hoa"); SELECT * FROM customers```
 
-<img src="https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/630a4a62-a80c-496f-8f43-acfbd0101d25" width="50%" height="50%"></img>
+
+    ```INSERT INTO customers (customer_id, name, surname, email, pseudonym) VALUES ("7", "Honia", "Stuczka-Kucharska", "honia@mail.com", "Hoa"); SELECT * FROM customers```
+    
+
+   <img src="https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/630a4a62-a80c-496f-8f43-acfbd0101d25" width="50%" height="50%"></img>
