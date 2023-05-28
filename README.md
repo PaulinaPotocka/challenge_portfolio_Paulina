@@ -197,6 +197,9 @@ ORDER BY sale.sale_date DESC```
 
 ```SELECT sale.sale_date, customers.name, customers.surname, movies.title FROM ((sale INNER JOIN customers ON sale.customer_id = customers.customer_id) INNER JOIN movies ON sale.movie_id = movies.movie_id)```
 
+<img src="https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/d5c91865-7c48-424b-9e13-288806be6711" width="50%" height="50%"></img>
+
+15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag
 
 
 
