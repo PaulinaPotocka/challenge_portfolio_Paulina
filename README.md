@@ -202,6 +202,7 @@ ORDER BY sale.sale_date DESC```
 15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag
 
 
+
 ```ALTER TABLE customersADD pseudonym varchar(3)UPDATE customers SET pseudonym = CONCAT(LEFT(name, 2), RIGHT(surname,1));
 SELECT * FROM customers;```
 
