@@ -215,3 +215,9 @@ ORDER BY sale.sale_date DESC```
 
 17. Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynik uporządkuj alfabetycznie. (Wykorzystaj do tego funkcji UNION)
 
+
+```SELECT name FROM customers UNION SELECT name FROM actors ORDER BY name;```
+
+<img src="https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/f5fbae83-3544-4ee5-a5b0-0c86e80e6807" width="50%" height="50%"></img>
+
+18. Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $ (Pamiętaj, że dolar to domyślna jednostka- nie używaj jej nigdzie)
