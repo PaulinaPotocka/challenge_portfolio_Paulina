@@ -111,9 +111,9 @@ Podczas testowania aplikacji natywnej zwracam uwagę na inne aspekty takie jak d
 
 1.	Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname
 
-```SELECT * FROM ACTORS ORDER BY SURNAME ASC```
+    ```SELECT * FROM ACTORS ORDER BY SURNAME ASC```
 
-<img src="https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/60fd94ba-2163-45d1-8dfd-5c8c3a44c36d" width="30%" height="30%"></img>
+    <img src="https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/60fd94ba-2163-45d1-8dfd-5c8c3a44c36d" width="30%" height="30%"></img>
 
 
 2.	Wyświetl film, który powstał w 2019 roku
