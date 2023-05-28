@@ -115,15 +115,15 @@ Podczas testowania aplikacji natywnej zwracam uwagę na inne aspekty takie jak d
 
 ```SELECT * FROM ACTORS ORDER BY SURNAME ASC```
 
-<img src="https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/60fd94ba-2163-45d1-8dfd-5c8c3a44c36d" width="20%" height="20%"></img>
+<img src="https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/60fd94ba-2163-45d1-8dfd-5c8c3a44c36d" width="30%" height="30%"></img>
 
 
 2.	Wyświetl film, który powstał w 2019 roku
 
 
-
-
 ```SELECT * FROM movies WHERE year_of_production=2019```
+
+<img src="https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/1408b581-cd44-4dc1-b1ea-c526f9ceac41" width="30%" height="30%"></img>
 
 
 3.	Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem
