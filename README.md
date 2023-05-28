@@ -221,3 +221,10 @@ ORDER BY sale.sale_date DESC```
 <img src="https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/f5fbae83-3544-4ee5-a5b0-0c86e80e6807" width="50%" height="50%"></img>
 
 18. Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $ (Pamiętaj, że dolar to domyślna jednostka- nie używaj jej nigdzie)
+
+```SELECT * FROM movies; UPDATE movies SET price = price + 2.5 WHERE year_of_production > 2000; SELECT * FROM movies```
+
+<img src="https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/1694c6d1-41db-4aa2-8700-24305a4b7fb2" width="50%" height="50%"></img>
+
+19. Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał
+
