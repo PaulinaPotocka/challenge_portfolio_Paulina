@@ -211,3 +211,7 @@ ORDER BY sale.sale_date DESC```
 
 ```SELECT DISTINCT title FROM movies INNER JOIN sale ON movies.movie_id = sale.movie_id```
 
+<img src="https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/8b916270-bd19-4746-9b91-d1549803d181" width="50%" height="50%"></img>
+
+17. Wyświetl wspólną listę imion wszystkich aktorów i klientów, a wynik uporządkuj alfabetycznie. (Wykorzystaj do tego funkcji UNION)
+
