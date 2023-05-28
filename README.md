@@ -175,7 +175,7 @@ Podczas testowania aplikacji natywnej zwracam uwagę na inne aspekty takie jak d
 
 11. Popełniłam błąd wpisując nazwisko Ani Miler – wpisałam Muler. Znajdź i zastosuj funkcję, która poprawi mój karkołomny błąd 🙈
 
- ```UPDATE customers set surname="Miler" WHERE customer_id=3```
+```UPDATE customers set surname="Miler" WHERE customer_id=3```
 
 12. Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma maila. W celu napisania mu wiadomości o pomyłce fantastycznej szefowej.
 
@@ -184,16 +184,14 @@ FROM `customers`
 LEFT JOIN sale 
 ON customers.customer_id = sale.customer_id 
 WHERE movie_id = 4 
-ORDER BY sale.sale_date DESC
-```
+ORDER BY sale.sale_date DESC```
 
 13. Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com
 
 ```UPDATE customers 
 SET email = "pati@mail.com" 
 WHERE name ="Patrycja" and surname = "Komor"; albo (WHERE customer_id = 4)
-SELECT * FROM `customers`;
-```
+SELECT * FROM `customers`;```
 
 14. Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu. (wykorzystaj do tego funkcję inner join, zastanów się wcześniej, które tabele Ci się przydadzą do wykonania ćwiczenia).
 
@@ -224,7 +222,7 @@ ON movies.movie_id = sale.movie_id```
 FROM customers 
 UNION SELECT name 
 FROM actors 
-ORDER BY name```
+ORDER BY name;```
 
 
 18. Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $ (Pamiętaj, że dolar to domyślna jednostka- nie używaj jej nigdzie).
@@ -236,7 +234,7 @@ UPDATE movies
 SET price = price + 2.5 
 WHERE year_of_production > 2000;
 
-SELECT * FROM movies```
+SELECT * FROM movies;```
 
 
 19. Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał
