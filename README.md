@@ -205,3 +205,5 @@ ORDER BY sale.sale_date DESC```
 
 ```ALTER TABLE customersADD pseudonym varchar(3)UPDATE customers SET pseudonym = CONCAT(LEFT(name, 2), RIGHT(surname,1)); SELECT * FROM customers;```
 
+<img src="https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/510e16f8-23c0-459b-9612-aa9703e7415d" width="50%" height="50%"></img>
+
