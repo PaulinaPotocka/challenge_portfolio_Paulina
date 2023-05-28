@@ -207,3 +207,7 @@ ORDER BY sale.sale_date DESC```
 
 <img src="https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/510e16f8-23c0-459b-9612-aa9703e7415d" width="50%" height="50%"></img>
 
+16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.
+
+```SELECT DISTINCT title FROM movies INNER JOIN sale ON movies.movie_id = sale.movie_id```
+
