@@ -115,7 +115,7 @@ Podczas testowania aplikacji natywnej zwracam uwagę na inne aspekty takie jak d
 
 ```SELECT * FROM ACTORS ORDER BY SURNAME ASC```
 
-<img src="https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/60fd94ba-2163-45d1-8dfd-5c8c3a44c36d" width="50%" height="50%"></img>
+<img src="https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/60fd94ba-2163-45d1-8dfd-5c8c3a44c36d" width="20%" height="20%"></img>
 
 
 2.	Wyświetl film, który powstał w 2019 roku
