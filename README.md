@@ -200,17 +200,3 @@ ORDER BY sale.sale_date DESC```
 <img src="https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/d5c91865-7c48-424b-9e13-288806be6711" width="50%" height="50%"></img>
 
 15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag
-
-
-
-```ALTER TABLE customersADD pseudonym varchar(3)UPDATE customers SET pseudonym = CONCAT(LEFT(name, 2), RIGHT(surname,1));
-SELECT * FROM customers;```
-
-
-<img src="https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/510e16f8-23c0-459b-9612-aa9703e7415d" width="50%" height="50%"></img>
-
-
-16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.
-
-
-
