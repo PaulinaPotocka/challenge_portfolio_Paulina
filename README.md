@@ -111,9 +111,6 @@ Podczas testowania aplikacji natywnej zwracam uwagę na inne aspekty takie jak d
 
 1.	Wyświetl tabelę actors w kolejności alfabetycznej sortując po kolumnie surname
 
-
-
-
 ```SELECT * FROM ACTORS ORDER BY SURNAME ASC```
 
 <img src="https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/60fd94ba-2163-45d1-8dfd-5c8c3a44c36d" width="30%" height="30%"></img>
@@ -121,26 +118,22 @@ Podczas testowania aplikacji natywnej zwracam uwagę na inne aspekty takie jak d
 
 2.	Wyświetl film, który powstał w 2019 roku
 
-
-
 ```SELECT * FROM movies WHERE year_of_production=2019```
+
 
 <img src="https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/1408b581-cd44-4dc1-b1ea-c526f9ceac41" width="30%" height="30%"></img>
 
 
 3.	Wyświetl wszystkie filmy, które powstały między 1900, a 1999 rokiem
 
-
-
-
 ```SELECT * FROM movies WHERE year_of_production BETWEEN 1900 AND 1999```
+
 <img src="https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/ca951af0-eefd-49e5-9af3-42910d9db694" width="30%" height="30%"></img>
 
 4.	Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$
 
-
-
 ```SELECT title, price FROM `movies` WHERE price<7```
+
 <img src="https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/8cd82e57-1429-477a-8e06-e488a8a11c67" width="30%" height="30%"></img>
 
 5.	Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN
@@ -149,34 +142,27 @@ Podczas testowania aplikacji natywnej zwracam uwagę na inne aspekty takie jak d
 
 6.	Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny
 
-
-
-
 ```SELECT * FROM `customers` WHERE customer_id=2 OR customer_id=4 OR customer_id=6```
+
 <img src="https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/89b7f164-3c9f-4181-9d40-8ff2c86745d0" width="30%" height="30%"></img>
 
 7.	Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN
 
-
-
 ```SELECT * FROM customers WHERE customer_id IN (1,3,5)```
+
 <img src="https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/865f901a-e022-4869-9de4-7f9d9ceec734" width="30%" height="30%"></img>
 
 8.	Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An”
 
-
-
-
 ```SELECT * FROM actors WHERE name Like 'An%'```
+
 <img src="https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/2fc88427-e403-4775-abb5-417dab5dd81f" width="30%" height="30%"></img>
 
 
 9.	Wyświetl dane klienta, który nie ma podanego adresu email
 
-
-
-
 ```SELECT * FROM customers where email is NULL```
+
 <img src="https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/b2bd01bd-907b-4fee-a668-28144513358f" width="30%" height="30%"></img>
 
 10.	Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id
