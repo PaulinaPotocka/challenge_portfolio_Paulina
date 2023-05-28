@@ -185,7 +185,7 @@ Podczas testowania aplikacji natywnej zwracam uwagę na inne aspekty takie jak d
 ```SELECT customers.name, customers.email, sale.movie_id FROM `customers` LEFT JOIN sale ON customers.customer_id = sale.customer_id WHERE movie_id = 4 
 ORDER BY sale.sale_date DESC```
 
-<img src="https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/ed51b0b6-9c59-411a-b1fe-1112f1cc82d6" width="30%" height="30%"></img>
+<img src="https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/ed51b0b6-9c59-411a-b1fe-1112f1cc82d6" width="50%" height="50%"></img>
 
 13. Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com
 
@@ -193,7 +193,7 @@ ORDER BY sale.sale_date DESC```
 ```UPDATE customers SET email = "pati@mail.com" WHERE name ="Patrycja" and surname = "Komor"; albo (WHERE customer_id = 4)
 SELECT * FROM `customers```
 
-<img src="https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/473489ac-9a3f-4c16-be7a-7b73b04b3fbf" width="30%" height="30%"></img>
+<img src="https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/473489ac-9a3f-4c16-be7a-7b73b04b3fbf" width="50%" height="50%"></img>
 
 
 14. Dla każdego zakupu wyświetl, imię i nazwisko klienta, który dokonał wypożyczenia oraz tytuł wypożyczonego filmu. (wykorzystaj do tego funkcję inner join, zastanów się wcześniej, które tabele Ci się przydadzą do wykonania ćwiczenia).
@@ -201,6 +201,7 @@ SELECT * FROM `customers```
 
 ```SELECT sale.sale_date, customers.name, customers.surname, movies.title FROM ((sale INNER JOIN customers ON sale.customer_id = customers.customer_id) INNER JOIN movies ON sale.movie_id = movies.movie_id)```
 
+<img src="https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/d5c91865-7c48-424b-9e13-288806be6711" width="50%" height="50%"></img>
 
 
 15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag
@@ -209,12 +210,16 @@ SELECT * FROM `customers```
 ```ALTER TABLE customersADD pseudonym varchar(3)UPDATE customers SET pseudonym = CONCAT(LEFT(name, 2), RIGHT(surname,1));
 SELECT * FROM customers;```
 
+<img src="https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/510e16f8-23c0-459b-9612-aa9703e7415d" width="50%" height="50%"></img>
+
 
 
 16. Wyświetl tytuły filmów, które zostały zakupione, wyświetl tabelę w taki sposób, aby tytuły się nie powtarzały.
 
 
 ```SELECT DISTINCT title FROM movies INNER JOIN sale ON movies.movie_id = sale.movie_id```
+
+<img src="https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/8b916270-bd19-4746-9b91-d1549803d181" width="50%" height="50%"></img>
 
 
 
@@ -223,6 +228,7 @@ SELECT * FROM customers;```
 
 ```SELECT name FROM customers UNION SELECT name FROM actors ORDER BY name;```
 
+<img src="https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/f5fbae83-3544-4ee5-a5b0-0c86e80e6807" width="50%" height="50%"></img>
 
 
 18. Polskę opanowała inflacja i nasz sklepik z filmami również dotknął ten problem. Podnieś cenę wszystkich filmów wyprodukowanych po 2000 roku o 2,5 $ (Pamiętaj, że dolar to domyślna jednostka- nie używaj jej nigdzie).
@@ -231,6 +237,8 @@ SELECT * FROM customers;```
 ```SELECT * FROM movies;
 UPDATE movies SET price = price + 2.5 WHERE year_of_production > 2000;
 SELECT * FROM movies```
+
+<img src="https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/1694c6d1-41db-4aa2-8700-24305a4b7fb2" width="50%" height="50%"></img>
 
 
 
@@ -245,6 +253,6 @@ SELECT * FROM movies```
 ```INSERT INTO customers (customer_id, name, surname, email, pseudonym) VALUES ("7", "Honia", "Stuczka-Kucharska", "honia@mail.com", "Hoa");
 SELECT * FROM customers```
 
-
+<img src="https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/630a4a62-a80c-496f-8f43-acfbd0101d25" width="50%" height="50%"></img>
 
 
