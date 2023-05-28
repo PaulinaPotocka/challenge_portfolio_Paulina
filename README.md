@@ -189,7 +189,7 @@ ORDER BY sale.sale_date DESC```
    
 13. Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com
 
-``` UPDATE customers SET email = "pati@mail.com" WHERE name ="Patrycja" and surname = "Komor"; albo (WHERE customer_id = 4)
+    ```UPDATE customers SET email = "pati@mail.com" WHERE name ="Patrycja" and surname = "Komor"; albo (WHERE customer_id = 4)
     SELECT * FROM `customers ```
 
 
