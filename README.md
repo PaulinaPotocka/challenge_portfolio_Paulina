@@ -228,3 +228,8 @@ ORDER BY sale.sale_date DESC```
 
 19. Wyświetl imię i nazwisko aktora o id 4 i tytuł filmu, w którym zagrał
 
+20. A gdzie nasza HONIA!? Dodaj do tabeli customers nową krotkę, gdzie customer_id = 7, name = Honia, surname = Stuczka-Kucharska, email = honia@mail.com oraz pseudonym = Hoa
+
+```INSERT INTO customers (customer_id, name, surname, email, pseudonym) VALUES ("7", "Honia", "Stuczka-Kucharska", "honia@mail.com", "Hoa"); SELECT * FROM customers```
+
+<img src="https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/630a4a62-a80c-496f-8f43-acfbd0101d25" width="50%" height="50%"></img>
