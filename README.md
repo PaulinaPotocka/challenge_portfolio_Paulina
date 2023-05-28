@@ -188,7 +188,7 @@ Podczas testowania aplikacji natywnej zwracam uwagę na inne aspekty takie jak d
     ```SELECT customers.name, customers.email, sale.movie_id FROM `customers` LEFT JOIN sale ON customers.customer_id = sale.customer_id WHERE movie_id = 4 
     ORDER BY sale.sale_date DESC```
 
-   <img src="https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/ed51b0b6-9c59-411a-b1fe-1112f1cc82d6" width="50%" height="50%"></img>
+     <img src="https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/ed51b0b6-9c59-411a-b1fe-1112f1cc82d6" width="50%" height="50%">          </img>
    
 13. Na pewno zauważył_ś, że sprzedawca zapomniał wpisać emaila klientce Patrycji. Uzupełnij ten brak wpisując: pati@mail.com
 
@@ -204,7 +204,7 @@ Podczas testowania aplikacji natywnej zwracam uwagę na inne aspekty takie jak d
 
     ```SELECT sale.sale_date, customers.name, customers.surname, movies.title FROM ((sale INNER JOIN customers ON sale.customer_id = customers.customer_id) INNER     JOIN movies ON sale.movie_id = movies.movie_id)```
 
-   <img src="https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/d5c91865-7c48-424b-9e13-288806be6711" width="50%" height="50%"></img>
+     <img src="https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/d5c91865-7c48-424b-9e13-288806be6711" width="50%" height="50%">          </img>
 
 
 15. W celu anonimizacji danych, chcesz stworzyć pseudonimy swoich klientów. - Dodaj kolumnę o nazwie ‘pseudonym’ do tabeli customer,- Wypełnij kolumnę w taki sposób, aby pseudonim stworzył się z dwóch pierwszych liter imienia i ostatniej litery nazwiska. Np. Natalie Pilling → Nag
