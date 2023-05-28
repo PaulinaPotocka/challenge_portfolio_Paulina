@@ -177,6 +177,8 @@ Podczas testowania aplikacji natywnej zwracam uwagę na inne aspekty takie jak d
 
 ```UPDATE customers set surname="Miler" WHERE customer_id=3```
 
+<img src="[https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/fd897656-281f-4d3a-a83c-c6e1586d9d1f](https://github.com/PaulinaPotocka/challenge_portfolio_Paulina/assets/108432905/8959aaaf-5e18-429c-bb67-e6e3bceae197)" width="30%" height="30%"></img>
+
 12. Pobrałam za dużo pieniędzy od klienta, który kupił w ostatnim czasie film o id 4. Korzystając z funkcji join sprawdź, jak ma na imię klient i jakiego ma maila. W celu napisania mu wiadomości o pomyłce fantastycznej szefowej.
 
 
