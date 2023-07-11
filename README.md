@@ -74,7 +74,7 @@ https://drive.google.com/drive/folders/1oPuK8m1aX2cfptTo_yw_wdlUMMWInokR?usp=sha
 ### Subtask 2
 <b>Raport z testów</b>
 
-https://drive.google.com/drive/folders/1YXir6WXpxDRtg7EZXT5eTXzh7VVObcP_?usp=share_link
+https://drive.google.com/drive/folders/1oPuK8m1aX2cfptTo_yw_wdlUMMWInokR?usp=share_link
 
 ## Task 4
 
