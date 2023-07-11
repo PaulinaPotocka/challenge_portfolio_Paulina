@@ -69,7 +69,7 @@ Po co nam <b> Przypadki testowe </b> :
 ### Subtask 1
 <b>Zgłoszenie błędów</b>
 
-https://drive.google.com/drive/folders/1YXir6WXpxDRtg7EZXT5eTXzh7VVObcP_
+https://drive.google.com/drive/folders/1YXir6WXpxDRtg7EZXT5eTXzh7VVObcP
 
 ### Subtask 2
 <b>Raport z testów</b>
